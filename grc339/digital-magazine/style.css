@@ -1,0 +1,119 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+div.container {
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media screen and (min-width: 48em) {
+    nav ul li {
+        display: inline-block;
+        margin-right: 2em; 
+        margin-bottom: 0; 
+    }
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+    text-decoration: none;
+    padding-bottom: 1em;
+}
+
+ul li {
+    margin-bottom: 0.2em;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(92,118,150);
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: serif;
+    padding: 0.1em 0 0.1em 0;
+    color: rgb(92,118,150);
+}
+
+p {
+    color: #000000;
+    padding-bottom: 2em;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 0;
+    max-width: 8em;
+    margin-bottom: 1em;
+}
+
+
+header {
+    padding: 0.8em 0 0 0.8em;
+    box-sizing: border-box;
+}
+
+section.secondary-story h2 {
+    font-size: 1.5em;
+}
+
+section.tertiary-story h2 {
+    font-size: 1em;
+}
+
+section.tertiary-story {
+    border-top: 1px solid black;
+}
+
+aside {
+    background-color: rgb(203,206,249);
+    padding: 1em 0.8em 1em 0.8em;
+}
+
+aside section.secondary-story h2 {
+    font-size: 1em;
+    padding-top: 0.3em;
+}
+
+article {
+    padding: 0em 0.8em 1em 0.8em;
+}
+
+article h2 {
+    padding-bottom: 0.5em;
+}
+
+footer p{
+    background-color: rgb(92,118,150);
+    color: #ffffff;
+    padding: 1em 0.8em 1em 0.8em;
+}
+
+main {
+    padding: 0em 0.8em 0em 0.8em;
+}
+
+figcaption {
+    padding-top: 0.2em;
+    padding-bottom: 2em;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(88,88,88);
+}
