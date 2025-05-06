@@ -7,113 +7,213 @@ img {
     display: block;
 }
 
-div.container {
-    max-width: 40em;
-    margin: 0 auto;
-    padding: 0;
-}
-
-@media screen and (min-width: 48em) {
-    nav ul li {
-        display: inline-block;
-        margin-right: 2em; 
-        margin-bottom: 0; 
-    }
-}
-
-ul {
-	list-style-type: none;
-	padding: 0;
-    text-decoration: none;
-    padding-bottom: 1em;
-}
-
-ul li {
-    margin-bottom: 0.2em;
-}
-
-ul li a {
-    text-decoration: none;
-    font-weight: bold;
-    font-family: sans-serif;
-    color: rgb(92,118,150);
-    font-size: 1.2em;
-}
-
-a {
-    text-decoration: none;
-}
-
-h2 {
-    font-size: 2.5em;
-    font-weight: bold;
-    font-family: serif;
-    padding: 0.1em 0 0.1em 0;
-    color: rgb(92,118,150);
-}
-
-p {
-    color: #000000;
-    padding-bottom: 2em;
+body {
     font-family: sans-serif;
 }
 
 h1 {
-    margin: 0;
-    max-width: 8em;
+    width: 6em;
+    margin-top: 1em;
+}
+
+h1, nav {
     margin-bottom: 1em;
 }
 
+h2 {
+    font-family: serif;
+    font-weight: bold;
+    color: #579;
+}
 
-header {
-    padding: 0.8em 0 0 0.8em;
-    box-sizing: border-box;
+section {
+    margin-bottom: 2em;
+}
+
+section.tertiary-story {
+    border-top: 1px solid #000;
+}
+
+
+header, h2, p {
+    margin: .2rem .5rem 0;
+}
+
+article h2 {
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+article p {
+    margin-bottom: 1em;
+}
+
+section.main-story h2 {
+    font-size: 2.5em;
 }
 
 section.secondary-story h2 {
     font-size: 1.5em;
 }
 
-section.tertiary-story h2 {
-    font-size: 1em;
-}
-
-section.tertiary-story {
-    border-top: 1px solid black;
-}
-
 aside {
     background-color: rgb(203,206,249);
-    padding: 1em 0.8em 1em 0.8em;
+    padding: 1em .5em;
+    margin-top: 1em;
 }
 
 aside section.secondary-story h2 {
     font-size: 1em;
-    padding-top: 0.3em;
 }
 
-article {
-    padding: 0em 0.8em 1em 0.8em;
+a {
+    text-decoration: none;
+    color: #222;
 }
 
-article h2 {
-    padding-bottom: 0.5em;
+nav ul li {
+    list-style-type: none;
 }
 
-footer p{
-    background-color: rgb(92,118,150);
-    color: #ffffff;
-    padding: 1em 0.8em 1em 0.8em;
+nav ul li a {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #579;
 }
 
-main {
-    padding: 0em 0.8em 0em 0.8em;
+nav ul li a:hover {
+    color: #f00;
+}
+
+footer {
+    width: 100%;
+    background: #579;
+    padding: .5em 0;
+    color: #eee;
+    box-sizing: border-box;
 }
 
 figcaption {
-    padding-top: 0.2em;
-    padding-bottom: 2em;
     font-family: sans-serif;
     font-style: italic;
     color: rgb(88,88,88);
+    margin: .2rem 0 1em;
 }
+
+div.container, div.home-container  {
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 40em) {
+    header, h2, p {
+        margin: .2rem 0 0;
+    }
+
+    figcaption {
+        color: #555;
+        font-style: italic;
+        margin: .2rem 0 1em;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 1em; 
+    }
+}
+
+@media only screen and (min-width: 60em) {
+
+    div.home-container {
+        max-width: 80em;
+        padding: 0 1em;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 1em;
+    }
+
+    div.container {
+        max-width: 60em;
+        padding: 0 1em;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 1em;
+    }
+
+    header, footer {
+        grid-column: 1/3;  
+    }
+
+    div.home-container main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+    }
+
+    div.home-container aside {
+        background: none;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    div.container aside {
+        margin-top: 0;
+    }
+
+    section.main-story {
+        grid-column: 2/4;
+        grid-row: 1/3;
+        display: flex;
+    }    
+
+    section.main-story a {
+        flex: 1 0 12em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.main-story a figure {
+        flex: 1 0 12em;
+        display: flex;
+    }
+
+    section.main-story a figure img {
+        object-fit: cover;
+    }
+
+    section.main-story a h2 {
+        flex: 0 0 1em;
+    }
+
+    section.main-story a p {
+        flex: 0 0 4em;
+    }
+
+    section.secondary {
+        display: flex;
+    }    
+
+    section.secondary a {
+        flex: 1 0 12em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.secondary a figure {
+        flex: 1 0 12em;
+        display: flex;
+    }
+
+    section.secondary a figure img {
+        object-fit: cover;
+    }
+
+    section.secondary a h2 {
+        flex: 0 0 1em;
+    }
+
+    section.secondary a p {
+        flex: 0 0 4em;
+    }
+} 
