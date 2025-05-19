@@ -8,7 +8,9 @@ img {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 h1 {
@@ -21,9 +23,18 @@ h1, nav {
 }
 
 h2 {
-    font-family: serif;
-    font-weight: bold;
-    color: #579;
+    font-family: "program", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #005F73;
+}
+
+aside h2 {
+    color: #6c584c;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
 }
 
 section {
@@ -31,13 +42,19 @@ section {
 }
 
 section.tertiary-story {
-    border-top: 1px solid #000;
+    border-top: 1px solid #005F73;
 }
 
 
 header, h2, p {
     margin: .2rem .5rem 0;
 }
+
+header h1 img {
+    width: 200px;
+    height: auto;    
+    display: block; 
+  }
 
 article h2 {
     font-size: 2.5em;
@@ -58,7 +75,7 @@ section.secondary-story h2 {
 }
 
 aside {
-    background-color: rgb(203,206,249);
+    background-color: #faedcd;
     padding: 1em .5em;
     margin-top: 1em;
 }
@@ -77,27 +94,30 @@ nav ul li {
 }
 
 nav ul li a {
-    font-weight: bold;
-    font-family: sans-serif;
-    color: #579;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #6c584c;
 }
 
 nav ul li a:hover {
-    color: #f00;
+    color: #005F73;
 }
 
 footer {
     width: 100%;
-    background: #579;
+    background: #005F73;
     padding: .5em 0;
     color: #eee;
     box-sizing: border-box;
 }
 
 figcaption {
-    font-family: sans-serif;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-style: italic;
-    color: rgb(88,88,88);
+    color: #6c584c;
     margin: .2rem 0 1em;
 }
 
@@ -112,7 +132,7 @@ div.container, div.home-container  {
     }
 
     figcaption {
-        color: #555;
+        color: #6c584c;
         font-style: italic;
         margin: .2rem 0 1em;
     }
