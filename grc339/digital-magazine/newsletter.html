@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <!-- You need this to proper scale in actual mobile devices.-->
+      <!-- Don’t forget to link to your CSS here. -->
+      <link rel="stylesheet" href="style.css" />
+      <title>Offshore Magazine</title>
+      <!-- This will be replaced with the actual name of the publication later.  -->
+      <!-- Helpful meta tags to fight GitHub aggresive caching-->
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+      <link rel="stylesheet" href="https://use.typekit.net/gpe0xwa.css">
+   </head>
+   <body>
+      <div class="container">
+         <!-- Same header as the home page. -->
+         <header>
+            <h1>
+               <a href="index.html">
+               <img src="offshore-logo.svg" alt="Website Logo." />
+               </a>
+            </h1>
+            <nav>
+               <ul>
+                  <li><a href="#stories">Stories</a></li>
+                  <li><a href="photogallery.html">Gallery</a></li>
+                  <li><a href="#community">Community</a></li>
+                  <li><a href="#gear">Gear</a></li>
+                  <li><a href="#about">About</a></li>
+               </ul>
+            </nav>
+         </header>
+         <main class="newsletter-main">
+            <figure>
+               <img src="newsletter.jpg" alt="A surfer in a wetsuit walks through shallow, rocky shoreline waters carrying a red surfboard, with gentle waves breaking in the background."/>
+            </figure>
+            <form>
+               <section class="personal-info">
+                  <h2>Personal Information</h2>
+                  <ul>
+                     <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="Full name" /></li>
+                     <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="Email address" /></li>
+                     <li><label for="phone">Phone:</label> <input type="tel" name="phone" id="phone" placeholder="(000) 000-0000" /></li>
+                  </ul>
+               </section>
+               <section class="subscribe">
+                  <h2>Subscription Type</h2>
+                  <ul>
+                     <li><input type="checkbox" id="weekly" value="weekly" name="subscription" /> <label for="weekly">Weekly</label></li>
+                     <li><input type="checkbox" id="monthly" value="monthly" name="subscription" /> <label for="monthly">Monthly</label></li>
+                     <li><input type="checkbox" id="yearly" value="yearly" name="subscription" /> <label for="yearly">Yearly</label></li>
+                  </ul>
+               </section>
+               <section class="subscribe">
+                  <h2>Interests</h2>
+                  <ul>
+                     <li><input type="checkbox" id="gear" value="gear" /> <label for="gear">Surf Gear</label></li>
+                     <li><input type="checkbox" id="community" value="community" /> <label for="community">Community</label></li>
+                     <li><input type="checkbox" id="surf-icons" value="surf-icons" /> <label for="surf-icons">Surf Icons</label></li>
+                     <li><input type="checkbox" id="conditions" value="conditions" /> <label for="conditions">Conditions</label></li>
+                  </ul>
+                  <button type="subscribe">Subscribe</button>
+               </section>
+            </form>
+         </main>
+
+         <footer>
+            <p>All rights reserved.</p>
+         </footer>
+      </div>
+   </body>
+</html>
