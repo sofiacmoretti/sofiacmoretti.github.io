@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    width: 6em;
+    width: 10em;
     margin-top: 1em;
 }
 
@@ -179,6 +179,7 @@ section.subscribe ul {
   
 .photogallery-nav {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5em;
     overflow: hidden;
     width: 100%;
@@ -200,6 +201,7 @@ section.subscribe ul {
     padding: 0.5em;
     text-align: center;
     font-style: italic;
+    text-align: left;
 } 
 
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1), /*input-image, nth-of-type(1)-first one listed, checked-selected (if they first input is selected, then...) */
@@ -382,3 +384,71 @@ div.container, div.home-container  {
         flex: 0 0 4em;
     }
 } 
+
+@media screen and (prefers-color-scheme: dark) {
+    h1 {  
+        background-image: url("offshore-logo-dark.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+    }  
+    h1 img {  
+        opacity: 0;  
+    }  
+    body {
+        background-color: #005F73;
+    }
+
+    nav ul li a {
+        color: #f3d5b5;
+    }
+
+    main h2 {
+        color: #ff9248;
+        font-weight: lighter;
+    }
+    p {
+        color: #fff;
+    }
+    aside h2 {
+        color: #f3d5b5;
+    }
+
+    aside {
+        background-color: #004652;
+    }
+
+    article figcaption {
+        color: #efdecd;
+    }
+
+    article h2 {
+        color: #ff9248;
+        font-weight: lighter;
+    }
+
+    section.intro h2 {
+        color: #ff9248;
+        font-weight: lighter;
+    }
+
+    section.intro p {
+        color: #efdecd;
+    }
+
+    footer {
+        background-color: #ff9248;
+    }
+
+    .photogallery-main figcaption {
+        background-color: #51869d;
+    }
+
+    nav ul li a:hover {
+        color: #ff9248;
+    }
+
+    section.tertiary-story {
+        border-top: 0.0625em solid #efdecd;
+    }
+
+}
