@@ -42,7 +42,7 @@ section {
 }
 
 section.tertiary-story {
-    border-top: 0.0625em solid #005F73;
+    border-top: 1px solid #005F73;
 }
 
 
@@ -448,7 +448,7 @@ div.container, div.home-container  {
     }
 
     section.tertiary-story {
-        border-top: 0.0625em solid #efdecd;
+        border-top: 1px solid #efdecd;
     }
 
 }
