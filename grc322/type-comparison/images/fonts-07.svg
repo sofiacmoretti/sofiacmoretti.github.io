@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 288">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Didot, Didot;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #231f20;
+        font-size: 196.41px;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #005fae;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        stroke-dasharray: 1.02 1.02;
+      }
+
+      .cls-3 {
+        font-family: BodoniStd-Book, 'Bodoni Std';
+      }
+
+      .cls-6 {
+        stroke-dasharray: 1.01 1.01;
+      }
+
+      .cls-6, .cls-7 {
+        stroke: #90cff2;
+      }
+    </style>
+  </defs>
+  <g class="cls-2">
+    <text class="cls-3" transform="translate(208.88 187.74)"><tspan x="0" y="0">j</tspan></text>
+  </g>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(94.22 187.74)"><tspan x="0" y="0">j</tspan></text>
+  </g>
+  <g>
+    <line class="cls-7" x1="99.41" y1="98.11" x2="99.91" y2="98.11"/>
+    <line class="cls-6" x1="100.92" y1="98.11" x2="130.59" y2="98.11"/>
+    <line class="cls-7" x1="131.09" y1="98.11" x2="131.59" y2="98.11"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="217.48" y1="106.04" x2="217.98" y2="106.04"/>
+    <path class="cls-5" d="M218.99,106.04h14.11s7.99-.25,11.3-2.87"/>
+    <path class="cls-4" d="M244.78,102.84c.12-.12.24-.24.34-.37"/>
+  </g>
+</svg>
