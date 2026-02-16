@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #90cff2;
+      }
+
+      .cls-2 {
+        font-family: Didot, Didot;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #231f20;
+        font-size: 60px;
+      }
+
+      .cls-4 {
+        fill: #005fae;
+      }
+
+      .cls-3 {
+        font-family: BodoniURW-Reg, 'Bodoni URW';
+      }
+
+      .cls-5 {
+        letter-spacing: -.05em;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(29.47 60.96)"><tspan x="0" y="0">“</tspan><tspan class="cls-5" x="26.64" y="0">”</tspan></text>
+  <text class="cls-3" transform="translate(31.04 80.06)"><tspan x="0" y="0">“”</tspan></text>
+  <path class="cls-4" d="M77.8,46.93s2.95-1.07,2.34-3.66c0,0,2.34,1.61.08,6.15"/>
+  <path class="cls-4" d="M65.06,46.93s2.95-1.07,2.34-3.66c0,0,2.34,1.61.08,6.15"/>
+  <path class="cls-4" d="M51.91,47.76s-2.95,1.07-2.34,3.66c0,0-2.34-1.61-.08-6.15"/>
+  <path class="cls-4" d="M39.28,48.04s-2.95,1.07-2.34,3.66c0,0-2.34-1.61-.08-6.15"/>
+  <path class="cls-1" d="M73.05,23.71s1.53.53,2.51-.38l.95-.88s1.53,2.23.12,4.76"/>
+  <path class="cls-1" d="M61.87,23.71s1.53.53,2.51-.38l.95-.88s1.53,2.23.12,4.76"/>
+  <path class="cls-1" d="M50.28,26.76s-1.53-.53-2.51.38l-.95.88s-1.53-2.23-.12-4.76"/>
+  <path class="cls-1" d="M39.19,26.76s-1.53-.53-2.51.38l-.95.88s-1.53-2.23-.12-4.76"/>
+</svg>
