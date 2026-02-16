@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 288">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .8;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #005fae;
+        font-family: BodoniStd-Book, 'Bodoni Std';
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 203.03px;
+      }
+
+      .cls-3 {
+        fill: #90cff2;
+        font-family: Didot, Didot;
+      }
+    </style>
+  </defs>
+  <g class="cls-1">
+    <text class="cls-2" transform="translate(139.04 207.15)"><tspan x="0" y="0">h</tspan></text>
+  </g>
+  <g class="cls-1">
+    <text class="cls-3" transform="translate(138.91 207.15)"><tspan x="0" y="0">h</tspan></text>
+  </g>
+</svg>

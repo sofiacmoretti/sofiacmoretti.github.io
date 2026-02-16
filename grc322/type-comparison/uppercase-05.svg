@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176.13 115.63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #90cff2;
+      }
+
+      .cls-2 {
+        font-family: Didot, Didot;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #231f20;
+        font-size: 70px;
+      }
+
+      .cls-4 {
+        fill: #005fae;
+      }
+
+      .cls-3 {
+        font-family: BodoniURW-Reg, 'Bodoni URW';
+      }
+    </style>
+  </defs>
+  <g>
+    <text class="cls-3" transform="translate(98.38 83.72)"><tspan x="0" y="0">W</tspan></text>
+    <path class="cls-4" d="M137.93,73.15l-7-20.37,4.97-14.35h4.2v-1.4h-30.81l.64,1.4h8.12l8.12,22.47-4.21,11.89.91,2.56,4.15-11.73,7.35,20.79M125.89,38.43h8.12l-4.06,11.55-4.06-11.55Z"/>
+  </g>
+  <g>
+    <text class="cls-2" transform="translate(12.06 83.49)"><tspan x="0" y="0">W</tspan></text>
+    <path class="cls-1" d="M39.72,75.23l9.31-25.83-5.32-14.77h-5.88v-.98h21v.98h-7.63l14.56,40.6-3.4,9.31h-.59l-12.04-33.6h-.14l-8.88,24.49"/>
+  </g>
+</svg>
